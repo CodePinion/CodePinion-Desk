@@ -1,0 +1,15 @@
+{
+  "name": "codepinion-desk",
+  "productName": "CodePinion Desk",
+  "version": "1.0.0",
+  "description": "Version Control Software",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Meta",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^26.1.0"
+  }
+}
