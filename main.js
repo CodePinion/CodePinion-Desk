@@ -23,3 +23,10 @@ function createMainWindow () {
 app.whenReady().then(() => {
   createMainWindow();
 });
+
+// Quit when all windows are closed.
+app.on('window-all-closed', () => {
+    if (process.platform !== 'darwin') { // macOS
+        app.quit()
+    }
+});
